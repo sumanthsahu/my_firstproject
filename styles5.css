@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    margin-bottom: 150px;
+}
+#bg-color{
+    background-color: teal;
+}
+#bg-image{
+    box-shadow: 0 0 10px black;
+    padding:10px;
+    width:500px;
+    background-image: url("../img/img1.jpg");
+    color:white;
+}
+#bg-repeat{
+    width:500px;
+    height:300px;
+    box-shadow: 0 0 10px black;
+    background:  orange url("../img/ball img") no-repeat top left scroll;
+}
+#bg-position{
+    width:500px;
+    height:300px;
+    box-shadow: 0 0 10px black;
+    background:  orange url("../img/ball img") no-repeat scroll bottom right;
+
+}
+#bg-attachment{
+    height:250px;
+    box-shadow: 0 0 10px black;
+    background:  url("../img/img1.jpg") no-repeat fixed center;
+}
+#bg-size{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+
+}
+#gredient{
+    height:300px;
+    width:500px;
+    box-shadow: 0 0 10px black;
+    background:linear-gradient(45deg,black,red,black);
+}

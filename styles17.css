@@ -1,0 +1,14 @@
+.container{
+    width:300px;
+    margin:50px auto;
+    border:3px solid gray;
+    padding:10px;
+    height: 300px ;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.item1{ background:orange;}
+

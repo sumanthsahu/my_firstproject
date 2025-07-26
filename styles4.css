@@ -1,0 +1,13 @@
+div{
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    padding:10px;
+    font-family: "comic sans ms",sans-serif;
+    width:300px;
+    margin: 150px auto;
+    color:white;
+    background-color: rgba(0,0,0,0.5)
+}
+body{
+    background-image: url("../img/img1.jpg");
+}

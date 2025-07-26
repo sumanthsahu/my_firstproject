@@ -1,0 +1,23 @@
+ol{
+    background-color: gray;
+
+}
+ol li{
+    font-family: "comic sans ms",sans-serif;
+    color:white;
+    margin:5px;
+
+}
+ol li:nth-child(1){
+    background-color: blue;
+
+}
+ol li:nth-child(2){
+    background-color: yellow;
+} 
+ol li:nth-child(3){
+    background-color:skyblue;
+} 
+ol li:nth-child(4){
+    background-color:red;
+}

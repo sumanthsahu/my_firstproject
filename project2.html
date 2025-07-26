@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job enrollment</title>
+    <style>
+        body{
+            font-family: calibri,sans-serif;
+
+        }
+        div{
+            background-color: lightgray;
+            width: 400px;
+            padding: 20px;
+            margin:auto;
+            border-radius: 5%;
+            font-size: 20px;
+            
+
+        }
+        input{
+            font-size: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px;
+
+        }
+        .content{
+            background-color: blue;
+        }
+        .container{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--job enrollment-->
+    <div>
+        <h2>job enrollment</h2>
+        <form>
+            <lable>username</lable><br>
+            <input type="text" placeholder="username"><br>
+
+            <lable>password</lable><br>
+            <input type="password" placeholder="password"><br>
+
+            <lable>email</lable><br>
+            <input type="email" placeholder="email"><br>
+
+            <lable>about yourself</lable><br>
+            <textarea rows="3" cols="30" placeholder="about yourself"></textarea><br>
+
+            <lable>design</lable><br>
+            <select>
+            <option value="software engineer">software engineer</option>
+            <option value="hardware engineer">hardware engineer</option><br>
+            </select><br>
+
+
+            <lable>DOB</lable><br>
+            <input type="date"><br>
+
+            <lable>your image</lable><br>
+            <input type="file"><br>
+
+            <lable>mobile number</lable><br>
+            <input type="number"><br>
+
+            <lable>programming level</lable><br>
+            <input type="checkbox" value="begineer">begineer
+            <input type="checkbox" value="intermediate">intermediate
+            <input type="checkbox" value="export">export<br>
+
+            <lable>expepection is</lable><br>
+            <input type="radio" name="expection is" value="backend">backend
+            <input type="radio" name="expection is" value="frontend">frontend
+            <input type="radio" name="expection is" value="database">database
+            <input type="radio" name="expection is" value="feedback">feedback<br>
+
+            <lable>website URL</lable><br>
+            <input type="url" placeholder="your website"><br>
+
+            <input type="submit" value="enroll" class="content">
+            <input type="reset" class="container">
+            
+        </form>
+    </div>
+</body>
+</html>

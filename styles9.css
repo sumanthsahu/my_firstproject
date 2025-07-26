@@ -1,0 +1,51 @@
+.main{
+    border:15px solid saddlebrown;
+    width:300px;
+    height: 450px;
+    margin:auto;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+    position: relative;
+}
+.main img{
+    width:inherit;
+    height:inherit;
+    transform: all 0.5s;
+
+}
+.main:hover img {
+    transform: scale(1.2,1.2);
+}
+.content-left{
+    background-image: url("../img/doorleft.jpg");
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height: 100%;
+    transform: perspective(400px) rotatey(0deg);
+    transform-origin: left;
+    transition: all 1.3s;
+
+
+}
+.main:hover .content-left{
+    transform: perspective(400px) rotatey(90deg);
+}
+.content-right{
+    background-image: url("../img/right.jpg");
+    background-size: cover;
+    position: absolute;
+    top:0;
+    right:0px;
+    width:50%;
+    height:100%;
+    transform:perspective(400px) rotatey(0deg);
+    transform-origin:right ;
+    transition: all 1.3s;
+
+}
+.main:hover .content-right{
+    transform: perspective(400px) rotatey(-90deg);
+}

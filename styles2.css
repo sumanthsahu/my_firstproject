@@ -1,0 +1,28 @@
+input[type="text"]{
+    background-color: blue;
+    
+}
+input[type="text"]:hover{
+    background-color:orangered;
+    color:white;
+    font-size: 20px;
+}
+input[type="password"]{
+    background-color: green;
+}
+
+input[type="password"]:hover{
+    background-color:pink;
+    font-size: 20px;     
+}    
+
+input[type="submit"]{
+    background-color: orange;
+}
+    input[type="submit"]:hover{
+        background-color:red;
+        color:white;
+        padding:10px 25px;
+    }    
+
+

@@ -1,0 +1,67 @@
+body{
+    font-family: calibri,sans-sarif;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    color:gray;
+}
+div img{
+    width: 400px;
+}
+p{
+    font-size: 25px;
+    color:gray;
+
+}
+button{
+    background-color: gray;
+    padding:18px;
+    border:none;
+    margin:10px;
+    font-size: 18px;
+}
+
+header{
+  background: linear-gradient(180deg,teal,lightseagreen,black);
+    padding:10px;
+}
+header h1{
+    color:whitesmoke;
+}
+nav{
+    background-color: lightgray;
+   
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding:10px 25px;
+    font-size: 18px;
+    color:black;
+
+}
+nav a:hover{
+    background-color: seagreen;
+    color:whitesmoke;
+}
+figure{
+    box-shadow: 0 0 10px black;
+    width:300px;
+    display: inline-block;
+    padding:10px;
+    margin: 10px;
+}
+figure img{
+    width:100%;
+}
+figure figcaption{
+    font-size: 30px;
+}
+figure p{
+    font-size: 20px;
+}
+footer{
+    background-color: gray;
+    color:whitesmoke;
+}
